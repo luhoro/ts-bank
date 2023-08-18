@@ -2,7 +2,7 @@ import { DiasDaSemana } from '../enums/dias-da-semana.js';
 import { Negociacoes } from '../models/negociacoes.js';
 import { MensagemView } from '../views/mensagem-view.js';
 import { NegociacoesView } from '../views/negociacoes-view.js';
-import { Negociacao } from './../models/negociacao.js';
+import { Negociacao } from '../models/negociacao.js';
 export class NegociacaoController {
     constructor() {
         this.negociacoes = new Negociacoes();

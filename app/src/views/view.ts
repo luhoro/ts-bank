@@ -14,8 +14,6 @@ export abstract class View<Type> {
     }
   }
 
-  @logarTempoDeExecucao(true)
-  @inspect()
   public update(model: Type): void {
     let template = this.template(model)
     this.elemento.innerHTML = template
